@@ -5,7 +5,7 @@ from urllib.request import urlopen, Request
 url = "http://docs.datacamp.com/teach/"
 
 # This packages the request
-request = Request(url)
+request = Request("http://docs.datacamp.com/teach/")
 
 # Sends the request and catches the response: response
 response = urlopen(request)
